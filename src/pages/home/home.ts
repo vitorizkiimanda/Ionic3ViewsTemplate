@@ -21,9 +21,9 @@ export class HomePage {
     "Gambar",
     "Video",
     "Tombol",
-    "Daftar",
+    "Daftar (list)",
     "Kartu",
-    "Masuk/Daftar",
+    "Halaman Masuk (login)",
     "Peringatan (Alert)",
     "Loading"
   ]
@@ -36,9 +36,9 @@ export class HomePage {
     if(data == "Gambar") this.navCtrl.push(GambarPage)
     if(data == "Video") this.navCtrl.push(VideoPage) 
     if(data == "Tombol") this.navCtrl.push(TombolPage) 
-    if(data == "Daftar") this.navCtrl.push(DaftarPage) 
+    if(data == "Daftar (list)") this.navCtrl.push(DaftarPage) 
     if(data == "Kartu") this.navCtrl.push(KartuPage) 
-    if(data == "Masuk/Daftar") this.navCtrl.push(MasukPage) 
+    if(data == "Halaman Masuk (login)") this.navCtrl.push(MasukPage) 
     if(data == "Peringatan (Alert)") this.navCtrl.push(PeringatanPage) 
     if(data == "Loading") this.navCtrl.push(LoadingPage) 
   }

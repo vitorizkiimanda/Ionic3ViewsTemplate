@@ -7,7 +7,8 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-item no-lines *ngFor="let data of data">
-    <button ion-button block color="light" (click)="buka(data)">{{data}}</button>
-  </ion-item>
+  <div *ngFor="let data of data">
+    <button ion-button block color="dark" (click)="buka(data)">{{data}}</button>
+    <br>
+  </div>
 </ion-content>
