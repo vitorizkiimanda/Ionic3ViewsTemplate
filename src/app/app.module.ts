@@ -9,6 +9,12 @@ import { HomePage } from '../pages/home/home';
 import { JudulPage } from '../pages/judul/judul';
 import { GambarPage } from '../pages/gambar/gambar';
 import { VideoPage } from '../pages/video/video';
+import { TombolPage } from '../pages/tombol/tombol';
+import { DaftarPage } from '../pages/daftar/daftar';
+import { KartuPage } from '../pages/kartu/kartu';
+import { MasukPage } from '../pages/masuk/masuk';
+import { PeringatanPage } from '../pages/peringatan/peringatan';
+import { LoadingPage } from '../pages/loading/loading';
 
 @NgModule({
   declarations: [
@@ -16,7 +22,13 @@ import { VideoPage } from '../pages/video/video';
     HomePage,
     JudulPage,
     GambarPage,
-    VideoPage
+    VideoPage,
+    TombolPage,
+    DaftarPage,
+    KartuPage,
+    MasukPage,
+    PeringatanPage,
+    LoadingPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +40,13 @@ import { VideoPage } from '../pages/video/video';
     HomePage,
     JudulPage,
     GambarPage,
-    VideoPage
+    VideoPage,
+    TombolPage,
+    DaftarPage,
+    KartuPage,
+    MasukPage,
+    PeringatanPage,
+    LoadingPage
   ],
   providers: [
     StatusBar,
