@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-title>
+      Daftar Isi
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item no-lines *ngFor="let data of data">
+    <button ion-button block color="light" (click)="buka(data)">{{data}}</button>
+  </ion-item>
+</ion-content>
