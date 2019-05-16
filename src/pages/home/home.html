@@ -8,7 +8,7 @@
 
 <ion-content padding>
   <div *ngFor="let data of data">
-    <button ion-button block color="dark" (click)="buka(data)">{{data}}</button>
+    <button ion-button block [color]="data.color" (click)="buka(data.title)" class="text">{{data.title}}</button>
     <br>
   </div>
 </ion-content>

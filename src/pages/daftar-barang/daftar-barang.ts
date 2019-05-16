@@ -13,7 +13,7 @@ export class DaftarBarangPage {
     {
       "id" : 0,
       "image" : "https://asset.kompas.com/crop/20x0:992x648/750x500/data/photo/2018/01/14/2342554562.jpg",
-      "nama" : "nama barang",
+      "nama" : "nama barang nama barang nama barang nama barang nama barang nama barang",
       "price" : "10.000",
       "favorit" : false
     },
