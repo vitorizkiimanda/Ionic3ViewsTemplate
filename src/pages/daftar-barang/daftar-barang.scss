@@ -1,0 +1,24 @@
+page-daftar-barang {
+    .fav{
+        width: 2.5em;
+        height: 2.5em;
+        position: absolute;
+        top: 0.5em;
+        right: 0.5em;
+        background-color: rgba(255, 255, 255, 0.75);
+        border-radius: 100%;
+    }
+    .pict {
+        width: 100%;
+        height: auto;
+    }
+    .JudulItem {
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .HargaItem {
+        font-size: 1em;
+        font-weight: bold;
+        color: #f53d3d;
+    }
+}

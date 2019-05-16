@@ -9,6 +9,7 @@ import { KartuPage } from '../kartu/kartu';
 import { MasukPage } from '../masuk/masuk';
 import { PeringatanPage } from '../peringatan/peringatan';
 import { LoadingPage } from '../loading/loading';
+import { DaftarBarangPage } from '../daftar-barang/daftar-barang';
 
 @Component({
   selector: 'page-home',
@@ -22,6 +23,7 @@ export class HomePage {
     "Video",
     "Tombol",
     "Daftar (list)",
+    "Daftar Barang",
     "Kartu",
     "Halaman Masuk (login)",
     "Peringatan (Alert)",
@@ -37,6 +39,7 @@ export class HomePage {
     if(data == "Video") this.navCtrl.push(VideoPage) 
     if(data == "Tombol") this.navCtrl.push(TombolPage) 
     if(data == "Daftar (list)") this.navCtrl.push(DaftarPage) 
+    if(data == "Daftar Barang") this.navCtrl.push(DaftarBarangPage) 
     if(data == "Kartu") this.navCtrl.push(KartuPage) 
     if(data == "Halaman Masuk (login)") this.navCtrl.push(MasukPage) 
     if(data == "Peringatan (Alert)") this.navCtrl.push(PeringatanPage) 

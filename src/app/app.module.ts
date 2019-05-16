@@ -15,6 +15,9 @@ import { KartuPage } from '../pages/kartu/kartu';
 import { MasukPage } from '../pages/masuk/masuk';
 import { PeringatanPage } from '../pages/peringatan/peringatan';
 import { LoadingPage } from '../pages/loading/loading';
+import { TempPage } from '../pages/temp/temp';
+import { DaftarBarangPage } from '../pages/daftar-barang/daftar-barang';
+import { RincianBarangPage } from '../pages/rincian-barang/rincian-barang';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { LoadingPage } from '../pages/loading/loading';
     KartuPage,
     MasukPage,
     PeringatanPage,
-    LoadingPage
+    LoadingPage,
+    DaftarBarangPage,
+    RincianBarangPage,
+    TempPage
   ],
   imports: [
     BrowserModule,
@@ -46,7 +52,10 @@ import { LoadingPage } from '../pages/loading/loading';
     KartuPage,
     MasukPage,
     PeringatanPage,
-    LoadingPage
+    LoadingPage,
+    DaftarBarangPage,
+    RincianBarangPage,
+    TempPage
   ],
   providers: [
     StatusBar,
